@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>
+            REGISTRATION
+        </title>
+    </head>
+    <body>
+        <form>
+            <h1>
+            Sign up
+            </h1>
+            <p>Please fill in this form to create an account</p>
+            <label for="name"></label>
+            <span class= "details"> Full name</span>
+            <input type="text" placeholder=" Enter your full name">
+            <br>
+            <label for="email"></label>
+            <span class= "details"> Email address</span>
+            <input type="email" placeholder="Enter your email address">
+            <br>
+            <label for="Create password"></label>
+            <span class= "details"> Password</span>
+            <input type="password" placeholder="Create password">
+            <br>
+            <label for="confirm password"></label>
+            <span class= "details"> Confirm password</span>
+            <input type=" confirm password" placeholder="Confirm password">
+         <p>By creating account you have agreed to our <a href="#"> Terms and privacy policy</a></p>
+         <button> Submit</button>
+         <br>
+         <p>Already have an account? <a href="#"> Log in</a></p>
+        </form>
+    </body>
+</html>
